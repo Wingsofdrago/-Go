@@ -25,7 +25,7 @@ func main() {
     for i := range arr {
         arr[i] = rand.Intn(100)
     }
-    fmt.Println("Before sorting:", arr)
+    fmt.Println("До", arr)
     selectionSort(arr)
-    fmt.Println("After sorting:", arr)
+    fmt.Println("После", arr)
 }
